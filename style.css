@@ -70,3 +70,34 @@
   grid-area: footer;
   background: green;
 }
+
+.container4 {
+  display: grid;
+  grid-template-columns: 180px 1fr 160px;
+  grid-template-rows: 60px minmax(200px, 1fr) 90px;
+}
+.l-header {
+  grid-column: 1 / 4;
+  grid-row: 1 / 2;
+  background: red;
+}
+.l-aside {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  background: yellow;
+}
+.l-main {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  background: blue;
+}
+.l-nav {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+  background: green;
+}
+.l-footer {
+  grid-column: 1 / 4;
+  grid-row: 3 / 4;
+  background: purple;
+}
